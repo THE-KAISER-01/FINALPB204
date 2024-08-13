@@ -39,6 +39,6 @@ b = "equis"
 path = "C:\Users\Dell\Documents\github-abd\FINALPB204"
 filenam ="prueba.txt"
 
-with open (path+filenam, 'r') as file:
-    print(file.read())
+with open (path+filenam, 'w') as filito:
+    print("hola mundo 3.1415926535", file=filito)
 
