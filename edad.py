@@ -25,8 +25,16 @@ entero = int(input())
 lista = [entero, flotante, pinocho]
 print(lista)
 
+
+
+
+
 a = 'x'
 b = "equis"
+
+
+
+
 
 path = "C:\Users\Dell\Documents\github-abd\FINALPB204"
 filenam ="prueba.txt"
