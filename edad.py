@@ -1,12 +1,10 @@
 
-#edad = int(input("ingrese su edad"))
+edad = int(input("ingrese su edad"))
 
-#if edad < 18:
-#    print("no puedes pasar")
-#else:
-#    print("bienvenido")
-
-#varios tipos de constantes
+if edad < 18:
+    print("no puedes pasar")
+else:
+    print("bienvenido")
 
 PI = 3.1415926535
 
@@ -41,4 +39,6 @@ filenam ="prueba.txt"
 
 with open (path+filenam, 'w') as filito:
     print("hola mundo 3.1415926535", file=filito)
+
+
 
