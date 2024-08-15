@@ -1,14 +1,10 @@
+def es_palindromo():
+    if palabra == palabra [::-1]:
+        print("true")
+    else:
+        print("false")
 
 
 
-palabra=print(input("dime la palabra:"))
-
-es_pa = palabra == palabra[::-1]
-print("es palindromo :)", es_pa)
-
-
-
-
-
-
-
+palabra= input("palabra?:")
+es_palindromo()
