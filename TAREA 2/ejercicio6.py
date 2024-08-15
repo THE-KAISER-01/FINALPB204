@@ -4,5 +4,5 @@ def inversa(cadena):
         Cadena_invertida=char+Cadena_invertida
     return Cadena_invertida
         
-print(inversa("hola mundo"))
+print(inversa("ESTOY PROBANDO"))
 
