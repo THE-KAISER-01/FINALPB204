@@ -4,11 +4,8 @@ def Voc():
     
     if letra in vocales:
         print("Es una vocal")
-    elif letra not in vocales:
-        print("No es una vocal")
     else:
-        print("no es una letraa")
-    
+        print("es una consonante")
     
 
 Voc()
