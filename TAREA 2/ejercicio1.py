@@ -1,13 +1,12 @@
-
-def MAX():
-    if x<y: 
-        print("El segundo numero es mayor que el primero")
-    elif x>y:
-        print("El primer numero es mayor que el segundo")
+def MAX(x, y):
+    if x >= y:
+        mayor = x
     else:
-        print("Ambos numeros son iguales")
+        mayor = y
     
-x = int(input("ingrese el primer numero: "))
-y = int(input("ingrese el segundo numero: "))
+    print(f"El número mayor es: {mayor}")
 
-MAX()
+x = int(input("Ingrese el primer número: "))
+y = int(input("Ingrese el segundo número: "))
+
+MAX(x, y)
