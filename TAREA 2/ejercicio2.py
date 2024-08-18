@@ -1,22 +1,13 @@
-def max_de_tres():
-  
-    if x>=y:
-        if x>=z:
-            return x
-        else:
-            return z
+def max_de_tres(x, y, z):
+    if x >= y and x >= z:
+        print(f"El número mayor es: {x}")
+    elif y >= x and y >= z:
+        print(f"El número mayor es: {y}")
     else:
-        if y>=z:
-            return y
-        else:
-            return z
-    
+        print(f"El número mayor es: {z}")
 
-x=int(input("ingrese el primer numero: "))
-y=int(input("ingrese el segundo numero: "))
-z=int(input("ingrese el  tercer numero: "))
+x = int(input("Ingrese el primer número: "))
+y = int(input("Ingrese el segundo número: "))
+z = int(input("Ingrese el tercer número: "))
 
-print("El numero mayor de los tres es: ",max_de_tres())
-
-
-            
+max_de_tres(x, y, z)

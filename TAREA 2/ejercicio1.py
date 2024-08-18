@@ -1,6 +1,5 @@
 
 def MAX():
-    
     if x<y: 
         print("El segundo numero es mayor que el primero")
     elif x>y:
