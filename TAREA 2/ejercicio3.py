@@ -1,13 +1,14 @@
-def long(cadena):
+def calcular_longitud(elemento):
+    contador = 0
+    for _ in elemento:
+        contador += 1
+    return contador
 
-    Longitud=0
-    for _ in cadena:
-        Longitud+=1
-    return Longitud
+mi_lista = input("Dame los números separados por espacios: ").replace(" ", "")
+mi_cadena = input("Dame la cadena: ").replace(" ", "")
 
-cadena=input("dame la cadena: \n")
-print("la longitud de la cadena es: ", long(cadena))
+longitud_lista = calcular_longitud(mi_lista)
+longitud_cadena = calcular_longitud(mi_cadena)
 
-
-#aun falta la lista    
-
+print("La longitud de la lista es: ",longitud_lista)
+print("La longitud de la cadena es: ",longitud_cadena)
