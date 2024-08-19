@@ -5,7 +5,7 @@ for edad in edades:
     if edad > 20:
         contador += 1
         
-print("La cantidad de personas con edades superiores a 20 es:", contador)
+print(f"La cantidad de personas con edades superiores a 20 es: {contador}")
 
 
 # parte dos del codigo donde pide las edades:
@@ -20,4 +20,4 @@ for edad in edades_usuario:
     if edad > 20:
         contador_usuario += 1
 
-print("La cantidad de personas con edades superiores a 20 es:", contador_usuario)
+print(f"La cantidad de personas con edades superiores a 20 es: {contador_usuario}" )
